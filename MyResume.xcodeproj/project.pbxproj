@@ -15,6 +15,18 @@
 		81BF70B11DFD491F000647A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BF70AF1DFD491F000647A0 /* LaunchScreen.storyboard */; };
 		81BF70BC1DFD491F000647A0 /* MyResumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70BB1DFD491F000647A0 /* MyResumeTests.m */; };
 		81BF70C71DFD491F000647A0 /* MyResumeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70C61DFD491F000647A0 /* MyResumeUITests.m */; };
+		81BF70D61DFD533F000647A0 /* Reference.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70D51DFD533F000647A0 /* Reference.m */; };
+		81BF70D91DFD5389000647A0 /* ReferencesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70D81DFD5389000647A0 /* ReferencesModel.m */; };
+		81BF70DC1DFDC415000647A0 /* ReferencesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70DB1DFDC415000647A0 /* ReferencesTableViewController.m */; };
+		81BF70DF1DFDC4CD000647A0 /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70DE1DFDC4CD000647A0 /* AddCardViewController.m */; };
+		81BF70E21DFDC66E000647A0 /* SocialMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70E11DFDC66E000647A0 /* SocialMediaViewController.m */; };
+		81BF70E51DFDC67D000647A0 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70E41DFDC67D000647A0 /* AboutMeViewController.m */; };
+		81BF70E81DFDC6AA000647A0 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70E71DFDC6AA000647A0 /* CameraViewController.m */; };
+		81BF70F51DFDE0DA000647A0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BF70F11DFDE0DA000647A0 /* Bolts.framework */; };
+		81BF70F61DFDE0DA000647A0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BF70F21DFDE0DA000647A0 /* FBSDKCoreKit.framework */; };
+		81BF70F71DFDE0DA000647A0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BF70F31DFDE0DA000647A0 /* FBSDKLoginKit.framework */; };
+		81BF70F81DFDE0DA000647A0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BF70F41DFDE0DA000647A0 /* FBSDKShareKit.framework */; };
+		81BF70FB1DFE2CD6000647A0 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF70FA1DFE2CD6000647A0 /* WebViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,26 @@
 		81BF70C21DFD491F000647A0 /* MyResumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyResumeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BF70C61DFD491F000647A0 /* MyResumeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyResumeUITests.m; sourceTree = "<group>"; };
 		81BF70C81DFD491F000647A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BF70D41DFD533F000647A0 /* Reference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reference.h; sourceTree = "<group>"; };
+		81BF70D51DFD533F000647A0 /* Reference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reference.m; sourceTree = "<group>"; };
+		81BF70D71DFD5389000647A0 /* ReferencesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferencesModel.h; sourceTree = "<group>"; };
+		81BF70D81DFD5389000647A0 /* ReferencesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferencesModel.m; sourceTree = "<group>"; };
+		81BF70DA1DFDC415000647A0 /* ReferencesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferencesTableViewController.h; sourceTree = "<group>"; };
+		81BF70DB1DFDC415000647A0 /* ReferencesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferencesTableViewController.m; sourceTree = "<group>"; };
+		81BF70DD1DFDC4CD000647A0 /* AddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		81BF70DE1DFDC4CD000647A0 /* AddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		81BF70E01DFDC66E000647A0 /* SocialMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialMediaViewController.h; sourceTree = "<group>"; };
+		81BF70E11DFDC66E000647A0 /* SocialMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialMediaViewController.m; sourceTree = "<group>"; };
+		81BF70E31DFDC67D000647A0 /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		81BF70E41DFDC67D000647A0 /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		81BF70E61DFDC6AA000647A0 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		81BF70E71DFDC6AA000647A0 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		81BF70F11DFDE0DA000647A0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		81BF70F21DFDE0DA000647A0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		81BF70F31DFDE0DA000647A0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		81BF70F41DFDE0DA000647A0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		81BF70F91DFE2CD6000647A0 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		81BF70FA1DFE2CD6000647A0 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BF70F81DFDE0DA000647A0 /* FBSDKShareKit.framework in Frameworks */,
+				81BF70F51DFDE0DA000647A0 /* Bolts.framework in Frameworks */,
+				81BF70F61DFDE0DA000647A0 /* FBSDKCoreKit.framework in Frameworks */,
+				81BF70F71DFDE0DA000647A0 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,10 @@
 				81BF70BA1DFD491F000647A0 /* MyResumeTests */,
 				81BF70C51DFD491F000647A0 /* MyResumeUITests */,
 				81BF709F1DFD491F000647A0 /* Products */,
+				81BF70F11DFDE0DA000647A0 /* Bolts.framework */,
+				81BF70F21DFDE0DA000647A0 /* FBSDKCoreKit.framework */,
+				81BF70F31DFDE0DA000647A0 /* FBSDKLoginKit.framework */,
+				81BF70F41DFDE0DA000647A0 /* FBSDKShareKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +143,25 @@
 			children = (
 				81BF70A41DFD491F000647A0 /* AppDelegate.h */,
 				81BF70A51DFD491F000647A0 /* AppDelegate.m */,
+				81BF70E31DFDC67D000647A0 /* AboutMeViewController.h */,
+				81BF70E41DFDC67D000647A0 /* AboutMeViewController.m */,
+				81BF70DD1DFDC4CD000647A0 /* AddCardViewController.h */,
+				81BF70DE1DFDC4CD000647A0 /* AddCardViewController.m */,
+				81BF70E61DFDC6AA000647A0 /* CameraViewController.h */,
+				81BF70E71DFDC6AA000647A0 /* CameraViewController.m */,
+				81BF70E01DFDC66E000647A0 /* SocialMediaViewController.h */,
+				81BF70E11DFDC66E000647A0 /* SocialMediaViewController.m */,
 				81BF70A71DFD491F000647A0 /* ViewController.h */,
 				81BF70A81DFD491F000647A0 /* ViewController.m */,
 				81BF70AA1DFD491F000647A0 /* Main.storyboard */,
+				81BF70D41DFD533F000647A0 /* Reference.h */,
+				81BF70D51DFD533F000647A0 /* Reference.m */,
+				81BF70D71DFD5389000647A0 /* ReferencesModel.h */,
+				81BF70D81DFD5389000647A0 /* ReferencesModel.m */,
+				81BF70DA1DFDC415000647A0 /* ReferencesTableViewController.h */,
+				81BF70DB1DFDC415000647A0 /* ReferencesTableViewController.m */,
+				81BF70F91DFE2CD6000647A0 /* WebViewViewController.h */,
+				81BF70FA1DFE2CD6000647A0 /* WebViewViewController.m */,
 				81BF70AD1DFD491F000647A0 /* Assets.xcassets */,
 				81BF70AF1DFD491F000647A0 /* LaunchScreen.storyboard */,
 				81BF70B21DFD491F000647A0 /* Info.plist */,
@@ -207,6 +263,7 @@
 				TargetAttributes = {
 					81BF709D1DFD491E000647A0 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DFD3SCAS3U;
 						ProvisioningStyle = Automatic;
 					};
 					81BF70B61DFD491F000647A0 = {
@@ -273,7 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BF70E21DFDC66E000647A0 /* SocialMediaViewController.m in Sources */,
+				81BF70E51DFDC67D000647A0 /* AboutMeViewController.m in Sources */,
+				81BF70FB1DFE2CD6000647A0 /* WebViewViewController.m in Sources */,
 				81BF70A91DFD491F000647A0 /* ViewController.m in Sources */,
+				81BF70DF1DFDC4CD000647A0 /* AddCardViewController.m in Sources */,
+				81BF70D61DFD533F000647A0 /* Reference.m in Sources */,
+				81BF70E81DFDC6AA000647A0 /* CameraViewController.m in Sources */,
+				81BF70D91DFD5389000647A0 /* ReferencesModel.m in Sources */,
+				81BF70DC1DFDC415000647A0 /* ReferencesTableViewController.m in Sources */,
 				81BF70A61DFD491F000647A0 /* AppDelegate.m in Sources */,
 				81BF70A31DFD491F000647A0 /* main.m in Sources */,
 			);
@@ -422,6 +487,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFD3SCAS3U;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/alexandriamar/Documents/FacebookSDK;
 				INFOPLIST_FILE = MyResume/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanwm.MyResume;
@@ -433,6 +500,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFD3SCAS3U;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/alexandriamar/Documents/FacebookSDK;
 				INFOPLIST_FILE = MyResume/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanwm.MyResume;
